@@ -15,7 +15,8 @@ class henon_map:
 
     def M(_, values, vector):
         # iterate vectors according to the jacobian
-        x, y = values
+        # because of jacobian, we don't need y
+        x = values[0] 
         jacobian = array([[-2*_.a*x, 1],[_.b, 0]])
         return jacobian @ vector
 
