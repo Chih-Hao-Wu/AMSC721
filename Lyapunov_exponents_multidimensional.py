@@ -58,5 +58,5 @@ class henon_map:
 parameters = (1.4,0.3) # Henon's original parameters for a chaotic attractor
 initial_conditions=array([0.1,0.3]) # Randomly select initial condition for iterates to plot Henon's map
 
-exp = lyapunov(henon_map(parameters), initial_values=initial_conditions)
+exp = lyapunov(henon_map(parameters), initial_values=initial_conditions).max()
 print(f"The maxmimal Lyapunov exponent is: {exp}")
