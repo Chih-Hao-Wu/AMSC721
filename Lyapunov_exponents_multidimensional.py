@@ -85,7 +85,7 @@ class RosslerSystem:
 
     def __call__(_, values, vector):
         item = HelperFunctions.pack(values, vector)
-        next_item = integrate.odeint(_.variational_equation, values, array([0, 1]), h0=_.h)
+        next_item = integrate.odeint(_.variational_equation, item, array([0, 1]), h0=_.h)
         return HelperFunctions.unpack(next_item[1])
 
 
