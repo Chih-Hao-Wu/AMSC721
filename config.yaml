@@ -1,31 +1,31 @@
 # parameters for SIVS model
 psi:
- male: 0.77
- female: 0.77
+ male: 0.8
+ female: 0.8
 
 p:
-  male: 0.4
-  female: 0.4
+  male: 0.54
+  female: 0.54
 
 pi:
-  male: 30
-  female: 30
+  male: 5
+  female: 5
 
 mu:
-  male: 0.033
-  female: 0.033
+  male: 0.013
+  female: 0.012
 
 beta:
   male: 0.001
   female: 0.001
 
 gamma:
-  male: 0.76
-  female: 0.76
+  male: 0.66
+  female: 0.66
 
 delta:
-  male: 0.001
-  female: 0.01
+  male: 0.0068
+  female: 0.0026
 
 alpha: 0.5
 
